@@ -16,6 +16,9 @@ The output that we get after running the program for different values of number 
 |                13                |                26624               |                      1024                     |
 |                14                |                57344               |                      2048                     |
 
-We can make 2 observations from the above data. They are:-
+We can make the following observations from the above data.
 1. For n ≥ 3, Number of distinct representations = n.2<sup>n-2</sup>
 2. For n ≥ 3, Number of circularly distinct representations = 2<sup>n-3</sup>
+3. Number of distinct representations = Number of circularly distinct representations * (2 * Number of Vertices in line graph)
+4. Number of distinct representations = Number of circularly distinct representations * (Length of string representing the line graph)
+5. All words representing the line graph are primitive words.
